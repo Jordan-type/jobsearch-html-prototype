@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Search</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- navbar -->
+	<nav class="navbar nav-boot navbar-expand-lg fixed-top navbar-dark bg-dark navbar-fixed">
+		<a class="navbar-brand" href="index.html">
+			<img src="img/logo.jpg" alt="Job Search" width="100" height="50" loading="lazy">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fa fa-bars"></i>
+		</button>
+		<div class="container">
+			<div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="listings.html">Browse listings</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resumes.html">Browse resumes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="404.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="404.html">Contact</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboard</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<!-- 							<a class="dropdown-item" href="dashboard.html">Dashboard</a> -->
+							<a class="dropdown-item" href="profile.html">Profile</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+      </div>
+      <div class="pull-right">
+        <ul class="navbar-nav mr-auto right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Signup</a>
+          </li>
+        </ul> 
+      </div> 
+      <a href="post_job.html" role="button" class="btn btn-outline-success btn-lg centered">Post a Job</a>
+    </nav>
+<!-- end navbar -->
+ 	<div class="top-margin">
+ 		<div class="jumbotron jumbotron-fluid intro_text">
+ 			<div class="container top-margin">
+ 				<h1 class="display-4">4536+ Jobs listed</h1>
+ 				<p class="lead">Find your Dream Job We provide online instant cash loans with quick approval that suit your term length</p>
+
+ 				<a href="profile.html" class="btn btn-success btn-lg btn_resume">Upload your Resume</a>
+                <a href="post_job.html" class="btn btn-light btn-lg btn_resume text-success">Post a Job, It's free!</a>
+ 			</div>
+ 		</div>
+ 	</div>
+<!-- start search form -->
+<div class="container-fluid top-margin">
+	<div class="row">
+		<form class="container-fluid">
+			<div class="form-row align-items-center">
+				<div class="col-md-4 form-group">
+					<div class="input-group input-group-lg">
+						<input type="text" class="form-control" id="inlineFormInputName" placeholder="Search Keyword">
+					</div>
+				</div>
+				<div class="col-md-4 form-group">
+					<div class="input-group input-group-lg">
+						<select class="form-control" id="project_type" required="required">
+							<option value="">Category</option>
+							<option value="Responsive Website">Web, Software & IT</option>
+							<option value="Standard Website">Design, Art & Multimedia</option>
+							<option value="E-commerce Website">Sales & Marketing</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-3 form-group">
+					<div class="input-group input-group-lg">
+						<input type="text" class="form-control" id="inlineFormInputName" placeholder="Location">
+					</div>
+				</div>
+				<div class="col-auto my-1">
+					<button type="submit" class="btn btn-lg btn-primary">Find job</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- end search form -->
+<!-- popular cartegories -->
+<div class="container-fluid top-margin">
+	<h1 class="text-muted">Popular Categories</h1>
+	<div class="row">
+		<!-- category 1 -->
+		<div class="col-md-3 col-sm-12">
+			<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-bar-chart fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Accouting / Finance</h6>
+ 						<p class="text-muted text-center"><span>42</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 			<!-- category 1 -->
+ 			<div class="col-md-3">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-car fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Automotive Jobs</h6>
+ 						<p class="text-muted text-center"><span>22</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 			<!-- category 1 -->
+ 			<div class="col-md-3 col-sm-12">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-globe fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Transportation / Logistics</h6>
+ 						<p class="text-muted text-center"><span>67</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 			<!-- category 1 -->
+ 			<div class="col-md-3 col-sm-12">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-graduation-cap fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Education</h6>
+ 						<p class="text-muted text-center"><span>12</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 		</div>
+
+ 		<div class="row">
+ 			<!-- category 1 -->
+ 			<div class="col-md-3 col-sm-12">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-heartbeat fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Healthcare</h6>
+ 						<p class="text-muted text-center"><span>32</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 			 			<!-- category 1 -->
+ 			<div class="col-md-3 col-sm-12">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-bed fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Restarant / Food Service</h6>
+ 						<p class="text-muted text-center"><span>45</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 			 			<!-- category 1 -->
+ 			<div class="col-md-3 col-sm-12">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-laptop fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Telecommunication</h6>
+ 						<p class="text-muted text-center"><span>100</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 			 			<!-- category 1 -->
+ 			<div class="col-md-3 col-sm-12">
+ 				<a href="categories.html" class="card mb-2">
+ 					<h6 class="text-center icon-margin text-success"><i class="fa fa-bath fa-5x"></i></h6>
+ 					<div class="card-body">
+ 						<h6 class="card-title text-center">Logistics</h6>
+ 						<p class="text-muted text-center"><span>10</span></p>
+ 					</div>
+ 				</a>
+ 			</div>
+ 			<!-- end  -->
+ 		</div>
+ 		<div class="d-flex justify-content-center top-margin">
+ 			<a href="categories.html" class="btn btn-lg btn-success">Browse all Categories</a>
+ 		</div>
+ 	</div>
+<!-- recent jobs -->
+ 	<div class="container-fluid top-margin">
+ 		
+ 		<div class="row">
+ 			<div class="col-md-8 slider-float-left">
+               <h1 class="text-muted">Recent Jobs</h1>
+ 				<a href="listing_item.html" class="card mb-2">
+ 					 <div class="row">
+ 					<div class="col-md-4">
+ 					<img src="img/job/aws.png" class="card-img img-fluid" alt="...">
+ 				</div>
+ 					<div class="card-body">
+ 						<h3 class="card-title">Marketing Coordinator - SEO/SEM Experience</h3>
+
+ 						<div class="form-row  align-items-center">
+ 							<h4 class="text-muted"><i class="fa fa-university fa-lg"></i> AWS</h4>
+ 							<h4 class="text-muted"><i class="fa fa-map-marker fa-lg"></i> Nairobi</h4>
+ 							<h4 class="text-muted"><i class="fa fa-usd fa-lg"></i> ksh 10,000 - 30,000</h4>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				</a>
+
+ 				<a href="listing_item.html" class="card mb-2">
+ 					<div class="row">
+ 					<div class="col-md-4">
+ 					<img src="img/job/microsoft.jpg" class="card-img img-fluid" alt="...">
+ 				</div>
+ 					<div class="card-body">
+ 						<h3 class="card-title">Marketing Coordinator - SEO/SEM Experience</h3>
+
+ 						<div class="form-row  align-items-center">
+ 							<h4 class="text-muted"><i class="fa fa-university fa-lg"></i> AWS</h4>
+ 							<h4 class="text-muted"><i class="fa fa-map-marker fa-lg"></i> Nairobi</h4>
+ 							<h4 class="text-muted"><i class="fa fa-usd fa-lg"></i> ksh 10,000 - 30,000</h4>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				</a>
+
+ 				<a href="" class="card mb-2">
+ 					 <div class="row">
+ 					<div class="col-md-4">
+ 					<img src="img/job/aws.png" class="card-img img-fluid" alt="...">
+ 				</div>
+ 					<div class="card-body">
+ 						<h3 class="card-title">Marketing Coordinator - SEO/SEM Experience</h3>
+
+ 						<div class="form-row  align-items-center">
+ 							<h4 class="text-muted"><i class="fa fa-university fa-lg"></i> AWS</h4>
+ 							<h4 class="text-muted"><i class="fa fa-map-marker fa-lg"></i> Nairobi</h4>
+ 							<h4 class="text-muted"><i class="fa fa-usd fa-lg"></i> ksh 10,000 - 30,000</h4>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				</a>
+
+ 				<a href="" class="card mb-2">
+ 					<div class="row">
+ 					<div class="col-md-4">
+ 					<img src="img/job/microsoft.jpg" class="card-img img-fluid" alt="...">
+ 				</div>
+ 					<div class="card-body">
+ 						<h3 class="card-title">Marketing Coordinator - SEO/SEM Experience</h3>
+ 						<div class="form-row align-items-center">
+ 							<h4 class="text-muted"><i class="fa fa-university fa-lg"></i> AWS</h4>
+ 							<h4 class="text-muted"><i class="fa fa-map-marker fa-lg"></i> Nairobi</h4>
+ 							<h4 class="text-muted"><i class="fa fa-usd fa-lg"></i> ksh 10,000 - 30,000</h4>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				</a>
+
+ 				<div class="d-flex justify-content-center top-margin">
+ 					<a href="more.html" class="btn btn-lg btn-success centered"><i class="fa fa-plus"></i> Show More Jobs</a>
+ 				</div>
+ 			</div>
+
+ 			<div class="col-md-4 slider-float-left">
+ 				<h1 class="text-muted">Job Spotlight</h1>
+ 				<a href="" class="card mb-2">
+ 					<div class="row no-gutters">
+ 						<img src="img/job/microsoft.jpg" class="card-img-top img-fluid" alt="...">
+ 					<div class="card-body">
+ 						<h5 class="card-title">Marketing Coordinator - SEO/SEM Experience</h5>
+ 						<div class="align-items-center">
+ 							<h4 class="text-muted"><i class="fa fa-university fa-lg"></i> AWS</h4>
+ 							<h4 class="text-muted"><i class="fa fa-map-marker fa-lg"></i> Nairobi</h4>
+ 							<h4 class="text-muted"><i class="fa fa-usd fa-lg"></i> ksh 10,000 - 30,000</h4>
+ 							<p class="text-muted">The Food Service Specialist ensures outstanding customer service is provided to food customers and that all food offerings meet the required stock levels and presentation standards.</p>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				</a>
+ 				<a href="" class="btn btn-block btn-success centered" data-toggle="modal" data-target="#exampleModal">Apply for this Job</a>
+ 			</div>
+ 		</div>
+ 	</div>
+           <!-- apply job -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                <div class="col-md-12">
+                  <h3 class="text-center">Apply For This Job</h3>
+                  <hr>
+                  <div class="col-md-12 form-group">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" id="inlineFormInputName" placeholder="FullName">
+                    </div>
+                </div>
+                <div class="col-md-12 form-group">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" id="inlineFormInputName" placeholder="Eamil Address">
+                    </div>
+                </div>
+                <div class="col-md-12 form-group">
+                    <div class="input-group input-group-lg">
+                        <textarea class="form-control" rows="5" placeholder="Your message / cover letter sent to the employer"></textarea>
+                    </div>
+                </div>
+                 <div class="col-md-12 form-group">
+                    <label>Upload your CV(Optional) <span class="margin-lefty">Max. file size: 5MB</span></label>
+                    <div class="input-group input-group-lg">
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="success.html" type="button" class="btn btn-block btn-lg btn-success centered">Send Application</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end job -->
+ 	<!-- end recent jobs -->
+ 	<section class="bg-success text-white text-lg-start top-margin">
+ 		<div class="container-fluid p-4">
+ 			<h4 class="text-center">Step inside and see for yourself!</h4>
+ 			<h4 class="text-center">Get Started</h4>
+ 		</div>
+ 	</section>
+    <div class="clearfix"></div>
+ 	<!-- what people say -->
+ 	<section class="text-lg-start top-margin ">
+ 		<div class="container-fluid">
+ 			<h3 class="text-center">What Our Users Say 😍</h3>
+ 			<p class="text-center">We collect reviews from our users so you can get an honest opinion of what an experience with our website is really like!</p>
+ 			<div class="container-fluid mt-5 d-flex justify-content-center ">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="maincard p-3">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="img/user_logo.jpg" class="rounded-circle mt-5" width="150">
+                        <h3 class="mt-2 mb-0">Jordan Muthemba</h3> <small class="user_name">Software developer</small>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4><i class="fa fa-quote-left"></i></h4>
+                            <p class="about text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h4><i class="fa fa-quote-right pull-right"></i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="maincard p-3">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="img/user_logo.jpg" class="rounded-circle mt-5" width="150">
+                        <h3 class="mt-2 mb-0">Manor Josa</h3> <small class="user_name">Sales executive</small>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4><i class="fa fa-quote-left"></i></h4>
+                            <p class="about text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h4><i class="fa fa-quote-right pull-right"></i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="maincard p-3">
+                <div class="thecard">
+                    <div class="thefront text-center py-4"> <img src="img/user_logo.jpg" class="rounded-circle mt-5" width="150">
+                        <h3 class="mt-2 mb-0">Jimmy Anderson</h3> <small class="user_name">Sales Manager</small>
+                    </div>
+                    <div class="theback py-3 px-3">
+                        <div class="quote mt-3">
+                            <h4><i class="fa fa-quote-left"></i></h4>
+                            <p class="about text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h4><i class="fa fa-quote-right pull-right"></i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 		</div>
+ 	</section>
+ 	<!-- end say -->
+ 	<!-- start footer -->
+<footer class="bg-dark text-white text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-md-6">
+        <h5 class="text-uppercase">About Us</h5>
+        <p>
+          Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.
+        </p>
+        <a href="index.html" class="btn btn-success btn-lg">Get Started</a>
+      </div>
+      <!--Grid column-->
+      <!--Grid column-->
+      <div class="col-md-2">
+        <h5 class="text-uppercase">Company</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="index.html" class="text-white">Home</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+      <!--Grid column-->
+      <div class="col-md-2">
+        <h5 class="text-uppercase mb-0">Press</h5>
+
+        <ul class="list-unstyled">
+ <!--          <li>
+            <a href="#!" class="text-white">Link 1</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 2</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 3</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 4</a>
+          </li> -->
+        </ul>
+      </div>
+      <!--Grid column-->
+      <div class="col-md-2">
+        <h5 class="text-uppercase mb-0">Browse</h5>
+
+        <ul class="list-unstyled">
+            <li>
+            <a href="listings.html" class="text-white">Jobs</a>
+          </li>
+          <li>
+            <a href="resume.html" class="text-white">Resumes</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+  	<p class="lead">Follow Us</p>
+  	<div>
+  		<ul class="social-network social-circle">
+  			<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+  			<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-twitter"></i></a></li>
+  			<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-youtube"></i></a></li>
+  			<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+  		</ul>
+  	</div>
+  	<br>
+    © 2020 Copyright:
+    <a class="text-white" href="">by JoBSearch. All Rights</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- end footer -->
+
+<!-- scripts -->
+<script src="js/style.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

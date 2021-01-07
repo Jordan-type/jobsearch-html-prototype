@@ -1,0 +1,254 @@
+/* Introduction */
+
+/* navigation bar */
+.light-green {
+
+	background-color: #e3f2fd;
+
+}
+
+.top-margin {
+    margin-top: 60px;
+}
+
+
+.op-margin {
+  margin-top: 20px;
+}
+
+.intro_text {
+
+	background: rgba(9, 106, 0, 0.29);
+	height: 552px;
+
+}
+
+.btn_resume {
+
+	border-radius: 30px;
+
+}
+
+/* Menu items costomization*/
+
+/* Breadcrumb */
+.breadcrumb {
+
+	background: none;
+}
+
+.margin-leftish {
+  margin-left: 60px;
+}
+
+.margin-bottomish {
+  margin-bottom: 20px;
+}
+
+.margin-lefty {
+	margin-left: 10px;
+}
+
+/* Categories Card*/
+
+div.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.icon-margin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Testimonials */
+.maincard {
+    position: relative;
+    margin-bottom: 35px;
+    width: 350px;
+    height: 350px
+}
+
+.thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease
+}
+
+.thecard:hover {
+    transform: rotateY(180deg)
+}
+
+.thefront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hidden;
+    background: #D50000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: hidden;
+    background: #D50000;
+    color: #fff;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    border: 1px solid #eee;
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    padding: 10px
+}
+
+.user_name {
+    color: #eee;
+    font-size: 15px;
+    margin-top: 5px
+}
+
+.about {
+    font-size: 12px
+}
+
+/* end testimonial */
+
+
+/* listing-item */
+
+.company-left {
+
+	align-items: left;
+}
+
+/* Footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* resume-title */
+.resume-title {
+	display: inline-block;
+	position: relative;
+}
+
+.resume-title h4 span {
+    font-size: 20px;
+    color: #666;
+    margin: -1px 0 18px 0;
+    line-height: 30px;
+    position: relative;
+    display: block !important;
+    font-weight: 400;
+}
+
+.resume-title .resume-content {
+    padding: 25px 0 15px 0;
+    margin-left: 149px;
+}
+
+.skills {
+    margin-top: 23px;
+}
+
+ .skills span {
+    font-size: 12px !important;
+    padding: 6px 12px;
+    margin-bottom: 3px !important;
+}
+
+.skills span {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    background-color: #c0c0c0;
+    color: #fff !important;
+    margin: 0 3px 0 0 !important;
+    float: left;
+    font-size: 12px !important;
+    font-weight: 600;
+    line-height: 19px;
+}
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
